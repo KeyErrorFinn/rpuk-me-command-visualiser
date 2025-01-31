@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rpuk-me-command-visualiser/static/css/main.eb4bb6d9.css",
+    "main.js": "/rpuk-me-command-visualiser/static/js/main.5c1eaded.js",
+    "static/media/example_background.png": "/rpuk-me-command-visualiser/static/media/example_background.737e3d95a56256625b9a.png",
+    "static/media/Inter-roman.var.woff2?v=3.18": "/rpuk-me-command-visualiser/static/media/Inter-roman.var.b65534c5223684261945.woff2",
+    "index.html": "/rpuk-me-command-visualiser/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.eb4bb6d9.css",
+    "static/js/main.5c1eaded.js"
+  ]
+}
