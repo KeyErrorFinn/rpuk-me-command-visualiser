@@ -1,6 +1,9 @@
 # RPUK /me Command Visualiser
 
-[![Last commit](https://img.shields.io/github/last-commit/KeyErrorFinn/rpuk-me-command-visualiser)](https://github.com/KeyErrorFinn/rpuk-me-command-visualiser/commits/main) [![Issues](https://img.shields.io/github/issues/KeyErrorFinn/rpuk-me-command-visualiser)](https://github.com/KeyErrorFinn/rpuk-me-command-visualiser/issues)
+<p align="center">
+  <a href="https://github.com/KeyErrorFinn/rpuk-me-command-visualiser/commits/main"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/KeyErrorFinn/rpuk-me-command-visualiser" /></a>
+  <a href="https://github.com/KeyErrorFinn/rpuk-me-command-visualiser/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/KeyErrorFinn/rpuk-me-command-visualiser" /></a>
+</p>
 
 <p align="center">
   <img alt="React" src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" />
