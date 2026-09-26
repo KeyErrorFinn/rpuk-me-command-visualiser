@@ -58,6 +58,8 @@ The production build honours the `homepage` path in `package.json`.
 
 This is an unofficial visualisation tool. It does not connect to FiveM or submit commands to the game, and exact rendering can vary from the live server.
 
+<!-- documentation-extras -->
+
 ## Live preview
 
 ![Live RPUK command visualiser](docs/screenshot.png)
@@ -72,3 +74,20 @@ flowchart LR
     Formatter --> Tokens["FiveM formatting tokens"]
     Tokens --> Preview["Live visual preview"]
 ```
+
+<details>
+<summary>Documentation and maintenance notes</summary>
+
+- Commands and behaviour in this README are derived from the files currently committed to the repository.
+- External services, games, websites, browser APIs, and file formats can change independently of this project.
+- When reporting a problem, include the operating system, runtime version, exact command, and complete error text with secrets removed.
+
+</details>
+
+## Contributing
+
+Focused fixes are welcome. Before changing behaviour, open an issue describing the problem and intended result. Keep credentials, generated secrets, personal data, and machine-specific configuration out of commits. Update this README whenever commands, configuration, paths, or supported behaviour change.
+
+## Licence
+
+No project-level licence is currently declared in this repository. Copyright remains with the repository owner and other contributors; obtain permission before redistributing or incorporating the code elsewhere. Third-party assets and dependencies retain their own licences.
