@@ -2,6 +2,15 @@
 
 [![Last commit](https://img.shields.io/github/last-commit/KeyErrorFinn/rpuk-me-command-visualiser)](https://github.com/KeyErrorFinn/rpuk-me-command-visualiser/commits/main) [![Issues](https://img.shields.io/github/issues/KeyErrorFinn/rpuk-me-command-visualiser)](https://github.com/KeyErrorFinn/rpuk-me-command-visualiser/issues)
 
+<p align="center">
+  <img alt="React" src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000" />
+  <img alt="Sass" src="https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=fff" />
+  <img alt="npm" src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=fff" />
+  <img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-222222?logo=githubpages&logoColor=fff" />
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=fff" />
+</p>
+
 A React web application for composing and previewing formatted `/me` command text used on the Roleplay UK FiveM server.
 
 ## Features
