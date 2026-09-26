@@ -1,39 +1,45 @@
-<h1 align="center">
-  RPUK /me Command Visualiser
-</h1>
+# RPUK /me Command Visualiser
 
-<p align="center">
-  <a href="https://github.com/KeyErrorFinn/rpuk-me-command-visualiser/commits/main/"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/KeyErrorFinn/rpuk-me-command-visualiser" /></a>
-  <a href="https://github.com/KeyErrorFinn/rpuk-me-command-visualiser/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/KeyErrorFinn/rpuk-me-command-visualiser" /></a>
-</p>
-<p align="center">
-  <a href="#"><img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white" /></a>
-  <a href="#"><img alt="GitHub Actions" src="https://img.shields.io/badge/github%20actions-%232671E5.svg?logo=githubactions&logoColor=white" /></a>
-</p>
-<p align="center">
-  <a href="#"><img alt="NPM" src="https://img.shields.io/badge/NPM-%23CB3837.svg?logo=npm&logoColor=white" /></a>
-  <a href="#"><img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?logo=react&logoColor=%2361DAFB" /></a>
-  <a href="#"><img alt="SCSS" src="https://img.shields.io/badge/SASS-hotpink.svg?logo=SASS&logoColor=white" /></a>
-</p>
-<p align="center">
-  <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white" /></a>
-  <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff" /></a>
-  <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000" /></a>
-</p>
+A React web application for composing and previewing formatted `/me` command text used on the Roleplay UK FiveM server.
 
+## Features
 
-This project is for visualising what the output of formatting the **/me command** can look like in **RPUK** before executing them in-game. It also helps by showing you options that might not be known with formatting.
+- Live preview of entered `/me` text.
+- Buttons for bold, italic, new lines, resets, and wanted-star formatting.
+- FiveM embedded colour codes.
+- FiveM HUD colour codes.
+- Custom HTML font colours.
+- An example background that approximates the in-game presentation.
 
-**RPUK** = GTA V FiveM Roleplay Server [ROLEPLAY UK](https://www.roleplay.co.uk)
+## How it works
 
-## Table of Contents
+`src/App.js` holds the generated preview markup and connects the two main panels:
 
-- [Table of Contents](#table-of-contents)
-- [About the Project](#about-the-project)
+- `Customizer` edits the command text and inserts formatting tokens around the current selection.
+- `ExampleOutput` renders the formatted result.
 
+Colour definitions are stored in `src/assets/data/`. Styling is written in SCSS under `src/styles/`. The generated production site is stored in `build/` and deployed through the workflow in `.github/workflows/static.yml`.
 
-## About the Project
+## Development
 
-[LINK TO WEBSITE](https://git.finnley.co.uk/rpuk-me-command-visualiser/)
+Requires Node.js and npm.
 
-TO FILL WITH INFORMATION
+```bash
+npm install
+npm start
+```
+
+The Create React App development server opens the site with live reloading.
+
+## Build and test
+
+```bash
+npm test
+npm run build
+```
+
+The production build honours the `homepage` path in `package.json`.
+
+## Disclaimer
+
+This is an unofficial visualisation tool. It does not connect to FiveM or submit commands to the game, and exact rendering can vary from the live server.
