@@ -1,7 +1,7 @@
 # RPUK /me Command Visualiser
 
 <p align="center">
-  <img src="assets/logo.svg" alt="rpuk-me-command-visualiser logo" width="480" />
+  <img src="assets/logo.png" alt="rpuk-me-command-visualiser logo" width="480" />
 </p>
 
 <p align="center">
