@@ -1,6 +1,10 @@
 # RPUK /me Command Visualiser
 
 <p align="center">
+  <img src="assets/logo.svg" alt="rpuk-me-command-visualiser logo" width="480" />
+</p>
+
+<p align="center">
   <a href="https://github.com/KeyErrorFinn/rpuk-me-command-visualiser/commits/main"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/KeyErrorFinn/rpuk-me-command-visualiser" /></a>
   <a href="https://github.com/KeyErrorFinn/rpuk-me-command-visualiser/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/KeyErrorFinn/rpuk-me-command-visualiser" /></a>
 </p>
